@@ -1,0 +1,8 @@
+From-EDA/
+sfdc_import_new.csv
+sfdc_update_existing.csv
+sfdc_import_sample_mhamilton.csv
+sfdc_update_sample_mhamilton.csv
+.DS_Store
+__pycache__/
+*.pyc

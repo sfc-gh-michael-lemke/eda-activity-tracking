@@ -1,0 +1,51 @@
+"SF Activity ID","Date of Meeting","Subject","Source","Account","Opportunity","Use Case","Owner","Description"
+"","2026-04-06","SSIM/Snowflake PoC Next Steps","Salesforce","0013100001qwK6gAAE","","","005VI00000Z0y6bYAB","Summary:
+Matt, Jim, and Thomas from Snowflake, along with Jeff from SSIM, discussed the next steps for the Snowflake PoC, including the need to identify migration opportunities and the importance of understanding current use cases. They also discussed the upcoming on-site meeting and the potential for a significant increase in Snowflake usage due to the depletion of unused credits.
+
+Attendees:
+irina.rubenchik@snowflake.com, leonard.walstad@snowflake.com, michael.roberts@snowflake.com, todd_mcfarland@ssga.com, winne_chin@ssga.com, murali.sathyamurthy@snowflake.com, jim.lebonitte@snowflake.com, rudi.leibbrandt@snowflake.com, godert.cohen@snowflake.com, greg.pavlik@snowflake.com, ahsan_hayat@statestreet.com, bharatchandra_mokkapati@ssga.com, djwang@statestreet.com, francois_sicard@statestreet.com, gliu7@statestreet.com"
+"","2026-04-06","CapOne Weekly Team Call","Salesforce","0013100001bmAI7AAM","006VI00000fqGvXYAU","","005VI00000Z0y6bYAB","Summary:
+Weekly Capital One SE team call. Jim joined as Field CTO to provide leadership support and visibility across the Capital One portfolio.
+
+Attendees:
+cj.jacob@snowflake.com, alex.price@snowflake.com, jedidiah.rajbhushan@snowflake.com, bhavin.palan@snowflake.com, ben.weiss@snowflake.com, matt.sulkis@snowflake.com, andrew.carson@snowflake.com, jacob.gebhardt@snowflake.com, jonah.pennington@snowflake.com, john.garvin@snowflake.com, allison.godfrey@snowflake.com, dirk.anderson@snowflake.com, judith.kim-shelton@snowflake.com, ramanan.somaskanda@snowflake.com, ramanan.somaskanda@capitalone.com"
+"","2026-04-06","DoorDash : Snowflake - Engineering Sync","Salesforce","0013100001qvZ4xAAE","","aPaVI00000iFLTY0A4","005VI00000Z0y6bYAB","Summary:
+Zaki, Jim, and Michael from Snowflake, along with Darren from DoorDash, discussed the integration of Snowflake's platform narrative with DoorDash's architecture patterns and workflows. They focused on persona-based workflows, the use of DBT, and the alignment of these with Snowflake's platform capabilities. The next steps include mapping workflows to architecture patterns and further developing the documentation.
+
+Attendees:
+brandon.chen@snowflake.com, steve.herbert@snowflake.com, mike.davis@doordash.com, shanthi.subramanian@snowflake.com, prateek.gaur@snowflake.com, harsha.reddy@doordash.com, jason.hughes@snowflake.com, d.wu@snowflake.com, nishanth.thimmegowda@snowflake.com, nileema.shingte@snowflake.com, sergey.zavgorodni@doordash.com, ruotian.wang@doordash.com, ting.xiong@doordash.com, diptiranjan.sahoo@snowflake.com, jeemin.sim@snowflake.com"
+"","2026-04-07","Bloomberg: Architecture Review","Salesforce","0013r00002XVNVfAAP","","aPaVI00000iFuqJ0AS","005VI00000Z0y6bYAB","Summary:
+Snowflake team members, along with Paul from Bloomberg Finance L.P., discussed Bloomberg's data architecture, challenges, and future needs, focusing on Snowflake's capabilities to address these areas. Key topics included data sharing, security, cost optimization, and the potential for AI integration, with a focus on managed Iceberg tables and the Horizon catalog. The group identified gaps and potential solutions, planning for future deep dives and proof-of-concept projects to improve Bloomberg's data delivery and management.
+
+Attendees:
+tim.spann@snowflake.com, jwala.vedantam@snowflake.com, hayden.barile@snowflake.com, jonathan.malamed@snowflake.com, kyu243@bloomberg.net, sstrauch1@bloomberg.net, blake.ogden@snowflake.com, naveenalan.thomas@snowflake.com, ckaruppanche@bloomberg.net, jim.lebonitte@snowflake.com, ryan.barry@snowflake.com, apaturu@bloomberg.net, prooney14@bloomberg.net, rkilleen1@bloomberg.net, ppatel462@bloomberg.net"
+"","2026-04-07","Snowflake/Smartsheet - Educational Session - Interoperability, Lakehouse & Agentic Architecture","Salesforce","0013100001nlaYcAAI","006VI00000w7UxeYAE","aPaVI00000iDaDb0AK","005VI00000Z0y6bYAB","Summary:
+Jim and Nick from Snowflake, along with Smartsheet team members, discussed Snowflake's interoperability, particularly with Databricks, and its lakehouse platform, focusing on open-source support, data governance, and agentic capabilities. The conversation highlighted Snowflake's commitment to avoiding vendor lock-in and enabling data democratization, with a focus on Iceberg and Delta table formats. Smartsheet expressed interest in AI/ML enablement, agent development, and practical insights into data coexistence between Snowflake and Databricks, which will be covered in future sessions.
+
+Attendees:
+drew.garner@smartsheet.com, tienshung.fung@snowflake.com, anand.srinivasan@smartsheet.com, sharath.ravindranath@smartsheet.com, kapil.ashar@smartsheet.com, puneet.srivastava@smartsheet.com, jim.lebonitte@snowflake.com, nick.richardson@snowflake.com, ivo.yueh@smartsheet.com, prashant.arora@smartsheet.com, anand.prashar@smartsheet.com"
+"","2026-04-07","[OPTIONAL] Sales Comp Office Hour (EMEA/AMS)","Salesforce","0010Z00001tG4CvQAK","006VI00000fqGvXYAU","aPaVI00000iFGmw0AG","005VI00000Z0y6bYAB","Summary:
+Optional Snowflake sales compensation Q&A office hour for the EMEA/AMS region. Jim attended as leadership support. (Internal Snowflake event — customer attribution is a system artifact.)
+
+Attendees:
+jim.lebonitte@snowflake.com"
+"","2026-04-07","[OPTIONAL] Sales Comp Office Hour (APJ)","Salesforce","0010Z00001tG4CvQAK","006VI00000fqGvXYAU","aPaVI00000iFGmw0AG","005VI00000Z0y6bYAB","Summary:
+Optional Snowflake sales compensation Q&A office hour for the APJ region. Jim attended. (Internal Snowflake event — customer attribution is a system artifact.)
+
+Attendees:
+jim.lebonitte@snowflake.com"
+"","2026-04-08","Architecture Deep Dive Part 2","Salesforce","0013100001nlaYcAAI","006VI00000w7UxeYAE","aPaVI00000iDaDb0AK","005VI00000Z0y6bYAB","Summary:
+Hunter, Jim, and Deepak from Snowflake, along with Karthic from CapitalOne, discussed architecture deep dive, including Snowflake and Databricks evaluation, metadata cataloging, and data governance. Jim shared his background and experiences with both platforms, providing insights into their use cases and architecture at Capital One.
+
+Attendees:
+charles.range@snowflake.com, viswanathan_k@subway.com, kelsi_d@subway.com, hunter.mcadoo@snowflake.com, jim.lebonitte@snowflake.com, sharma_ro@subway.com"
+"","2026-04-08","Onsite workshop with Snowflake & AWS","Salesforce","0010Z00001tG2qeQAC","","aPaVI00000iFJzU0AW","005VI00000Z0y6bYAB","Summary:
+Jim and Bill Sheehan (Snowflake) joined Rupesh Pagare and the AbbVie data platform team for an in-person onsite workshop with AWS. Reviewed AbbVie's data architecture, Snowflake deployment patterns, and AWS integration strategy.
+
+Attendees:
+jim.lebonitte@snowflake.com, rupesh.pagare@abbvie.com, bill.sheehan@snowflake.com, kishore.sreeram@abbvie.com, lbrosnan@amazon.com, mbx-lcabv1-lc-301-05@abbvie.com, naresh.narad@abbvie.com, nisha.paliwal@abbvie.com, raj.aligapally@abbvie.com, raju.kanjamalai@abbvie.com, saharsh.kislaya@abbvie.com, sumit.bali@abbvie.com, alam.mohammad@abbvie.com"
+"","2026-04-08","Snowflake / AbbVie Dinner","Salesforce","0010Z00001tG2qeQAC","","aPaVI00000iFJzU0AW","005VI00000Z0y6bYAB","Summary:
+Post-workshop dinner with AbbVie (Rupesh Pagare) and Snowflake team (Luke Roquet, Bill Sheehan). Relationship-building follow-on to the day's in-person architecture workshop.
+
+Attendees:
+rupesh.pagare@abbvie.com, luke.roquet@snowflake.com, bill.sheehan@snowflake.com, jim.lebonitte@snowflake.com, sean.morton@snowflake.com, nisha.paliwal@abbvie.com, saharsh.kislaya@abbvie.com, naresh.narad@abbvie.com, raju.kanjamalai@abbvie.com, christina.wild@abbvie.com, chad.lacrosse@abbvie.com, alam.mohammad@abbvie.com, balaji.pattabiraman@abbvie.com, gian.prakash@abbvie.com, matt.guyette@abbvie.com"

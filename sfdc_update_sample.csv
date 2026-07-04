@@ -1,0 +1,117 @@
+"SF Activity ID","Date of Meeting","Subject","Source","Account","Opportunity","Use Case","Owner","Description"
+"aPoVI0000009Xgb0AE","2026-04-07","Bloomberg: Architecture Review","Salesforce","0013r00002XVNVfAAP","006VI00000xfFnVYAU","aPaVI00000iFuqJ0AS","005VI00000Z0y6bYAB","Summary:
+Snowflake team members, along with Paul from Bloomberg Finance L.P., discussed Bloomberg's data architecture, challenges, and future needs, focusing on Snowflake's capabilities to address these areas. Key topics included data sharing, security, cost optimization, and the potential for AI integration, with a focus on managed Iceberg tables and the Horizon catalog. The group identified gaps and potential solutions, planning for future deep dives and proof-of-concept projects to improve Bloomberg's data delivery and management.
+
+Next Steps:
+- - Jim will get back to Paul regarding the current version of Polaris used in Snowflake's managed offering and how close it is to the stable release version, and also clarify if a migration is needed for the current open catalog setup or if it's just a name change.
+- - Jim will send information to the Bloomberg team about the general theme of making data more AI friendly.
+- - Jim will follow up with the Bloomberg team to show them a managed table solution, including a demo.
+- - Jwala will share the spreadsheet created during the meeting, which captures discussion points, action items, recommendations, and notes, with the Bloomberg team.
+- - Jwala will take back the feedback regarding the need for more insight into query duration or execution time for listing analytics, and explore if it's possible to capture metrics on customer use cases and pruning effectiveness.
+- - Jwala will send information to the Bloomberg team about payload groups and replication groups for disaster recovery.
+- - Naveen will capture detailed usage metrics, workarounds, and alternative methods discussed during the meeting.
+- - Jonathan will send a follow-up email after the meeting, and the Bloomberg team will send back prioritized items and any additional points not covered.
+- - Jonathan will schedule a regroup session to discuss the remaining agenda items, including data sharing patterns, multi-tenant architecture, data products, AI, enrichment, and future state.
+- - The Snowflake team will explore the possibility of a Proof of Concept (POC) for using auto-replication and managed iceberg tables to address the Bloomberg team's needs for account management and data replication."
+"aPoVI0000009ML80AM","2026-04-07","Snowflake/Smartsheet - Educational Session - Interoperability, Lakehouse & Agentic Architecture","Salesforce","0013100001aOsPwAAK","006VI00000vVGKcYAO","aPaVI00000ixIvf0AE","005VI00000Z0y6bYAB","Summary:
+Jim and Nick from Snowflake, along with Smartsheet team members, discussed Snowflake's interoperability, particularly with Databricks, and its lakehouse platform, focusing on open-source support, data governance, and agentic capabilities. The conversation highlighted Snowflake's commitment to avoiding vendor lock-in and enabling data democratization, with a focus on Iceberg and Delta table formats. Smartsheet expressed interest in AI/ML enablement, agent development, and practical insights into data coexistence between Snowflake and Databricks, which will be covered in future sessions.
+
+Next Steps:
+- - Nick will schedule a second session that is an hour long, more honed in on specific use cases, and tailored to what Smartsheet is building, covering topics not addressed in the current session, including Snowflake's agentic capabilities.
+- - Jim will cover how Snowflake constructs agents, how governance capabilities are layered in, and how roles are assigned to ensure attribute tabbing and rules are met in the next session.
+- - Jim will bring slides around Snowflake's traditional ML capabilities, including model registry, online feature store, ability to run notebooks, and Ray, for the next session.
+- - Kapil will discuss agentic stuff, specifically how to build agents natively in Snowflake or call Snowflake through an AWS call, in the next session.
+- - Anand Srinivasan will discuss the layered platform capability, its governance, post-market serving, and agent development support in the next session.
+- - Puneet will discuss interoperability between Databricks and Snowflake, focusing on coexistence of data and reducing coexistence challenges, in the next session."
+"aPoVI0000007sTY0AY","2026-04-08","Architecture Deep Dive Part 2","Salesforce","0010Z00001uXTpzQAG","006VI00000xkNMDYA2","aPaVI00000iFgBd0AK","005VI00000Z0y6bYAB","Summary:
+Hunter and Jim from Snowflake, along with Rohit, Karthic and Deepak from Franchise World Headquarters, LLC, discussed Franchise World Headquarters' ongoing evaluation of Snowflake and Databricks, focusing on architecture, interoperability, and data democratization. Key topics included Snowflake's multi-region capabilities, data sharing, and integration with tools like Power BI and Adobe, as well as Franchise World Headquarters' data lakehouse strategy and the potential use of Iceberg. The group agreed to a follow-up meeting to delve deeper into Power BI integration and VPC configurations.
+
+Next Steps:
+- - Jim will send Hunter information on ontology and data modeling pieces.
+- - Jim will send links for good Iceberg Summit sessions.
+- - Karthic will ping Rohit to see if he's going to join.
+- - Hunter will provide documentation on flexibility for sharing data externally and managing it.
+- - Jim will come back with a deep dive on different mechanisms to expose data for internal use, including APIs or JDBC connections.
+- - Jim will come back with specifics on how to set up Power BI.
+- - Deepak will paste the screenshot into the chat for Jim to look at.
+- - Hunter will set up a conversation with Luke Ambriassetti regarding Adobe integration and federated connections.
+- - Jim will come back with different ways to implement the medallion architecture flow and walk through Deepak's example.
+- - Hunter will pull up Jim's calendar to schedule more time for discussion, specifically on Power BI and VPC questions."
+"aPoVI0000007X6T0AU","2026-04-10","Snowflake Architecture","Salesforce","0010Z00001uXTpzQAG","006VI00000xkNMDYA2","aPaVI00000iFgBd0AK","005VI00000Z0y6bYAB","Summary:
+Hunter and Jim from Snowflake, along with Rohit and Deepak from Franchise World Headquarters, LLC, discussed Franchise World Headquarters' potential migration from Redshift to Snowflake, focusing on CI/CD integration with Azure DevOps, ETL capabilities, and Power BI integration with Snowflake, while also addressing concerns about pricing, data governance, and architectural patterns. Franchise World Headquarters is nearing a decision, weighing Snowflake's strengths against Databricks' openness, with pricing and service being key factors.
+
+Next Steps:
+- - Hunter will get more documentation around CICD currency stuff for Rohit.
+- - Hunter will get information about what the Openflow connector looks like and do a quick demo, specifically showing how to set up a job, an environment, and how to promote to a developer environment, using synthetic data.
+- - Hunter will put time on the calendar for the Openflow demo after lunch during the onsite next week.
+- - Hunter will set up an open forum discussion to explore options for Power BI integration and the OneLake approach, and do a deep dive on the topic.
+- - Jim will have the product team come talk to Rohit and Deepak about Power BI direct query mode and give a clear way on how to implement it.
+- - Jim will provide a clear recommendation for how to do Power BI with Snowflake.
+- - Jim will set up a demo for Deepak on Openflow and dynamic tables, showing how to configure schedules and lag for data ingestion and orchestration.
+- - Hunter will share more details from an architecture perspective to address the outdated view of Snowflake's openness."
+"aPoVI0000007RSE0A2","2026-04-10","Pete Terrana | Snowflake Account Team Introduction","Salesforce","0013100001gX5MdAAK","","aPaVI00000iGzvz0AC","005VI00000Z0y6bYAB","Summary:
+Snowflake team members, along with Pete Terrana from Elevance Health - Parent, discussed Elevance's AI strategy, focusing on standardizing their fragmented AI ecosystem and leveraging Snowflake's Cortex for AI development and data management. They explored potential collaborations, including access to Cortex, ontology building, and interoperability between different AI frameworks, with a focus on optimizing AI performance and data governance. The teams agreed to a monthly cadence to continue the discussion and explore opportunities for Snowflake to support Elevance's AI initiatives.
+
+Next Steps:
+- - Austin will push to get Pete Terrana access to Cortex.
+- - Jim will send Pete Terrana information about ontology and the native app for ontology building, and keep him updated on Capital One's progress with Cortex telemetry and guardrails.
+- - Austin will bring up the request for Cortex telemetry feed from Snowflake with Balaji.
+- - Amy will ensure Pete Terrana receives updates on new developments or changes in Cortex.
+- - Austin will set up a monthly cadence with Pete Terrana to discuss how he can help Elevance.
+- - Ajit will invite Pete Terrana to participate in a Cortex hackathon.
+- - Austin will hit up Pete Terrana to take him out to dinner when they make a trip to Richmond."
+"aPoVI0000007hU10AI","2026-04-10","Medtronic Dual Platform Governance Strategy Sync","Salesforce","0010Z00001xxXbYQAU","006VI00000vo2vRYAQ","aPaVI00000iFA4J0AW","005VI00000Z0y6bYAB","Summary:
+Rob, Olga and Todd from Snowflake, along with Ravi, Brad and Babu from Medtronic, Inc., discussed Medtronic's dual platform data strategy involving Snowflake and Databricks, focusing on interoperability challenges and potential solutions like transitioning to Iceberg for a unified data format. Snowflake offered expertise in navigating the dual platform, AI governance, and catalog integration, while Medtronic expressed interest in exploring private link connectivity and improving data discovery within their Snowflake environment. The teams agreed to schedule follow-up discussions on AI agents, Horizon Catalog evolution, and a side-by-side testing comparison of Delta Lake and Iceberg.
+
+Next Steps:
+- - Rob will schedule a separate follow-up session with Ravi and his leaders to discuss AI agents, AI governance, agent marketplace, accuracy testing framework, and semantic layer migration to Snowflake.
+- - Todd will send Brad an example of what benefits they would get by moving to native Iceberg V3.
+- - Purvaja will follow up with Brad on the Select Star integration, connecting him with the product team for early access to test drive it and provide feedback.
+- - Purvaja will connect Brad with the product team working on the Select Star integration for early access to test drive it and provide feedback.
+- - Brad will explore the possibility of POCing a small dataset to test defaulting every table to Iceberg V3 and setting up a brand new catalog integration to support it within their data public environment.
+- - Brad will look into implementing Private Link connectivity between their Snowflake and Databricks platforms for catalog integration.
+- - Rob will organize the follow-up conversations, including the AI governance discussion with Purvaja and Todd.
+- - Rob will send out next steps to the team."
+"aPoVI0000005NXX0A2","2026-04-13","Horizon and Data Governance: G200 Considerations","Salesforce","001VI00000JfuzOYAR","","","005VI00000Z0y6bYAB","Summary:
+Stephen, Molly and Jim from Snowflake discussed the upcoming offsite meeting with a client, focusing on data governance and security within the Horizon platform. They strategized on addressing the client's specific needs, including data sharing controls, Iceberg integration, and the transition from file-based access to data access. Jim will present on data governance, and the team will work to accommodate his schedule and the client's technical expertise.
+
+Next Steps:
+- - Molly will make sure everybody has the agenda for next week.
+- - Molly will print off the agenda for Diane.
+- - Molly will break out the G200 tech engagement and demos calendar invite today.
+- - Molly will work around Jim's flight schedule to ensure conversations and breakouts are in the morning on day two of the offsite.
+- - Stephen will provide Jim with gory details about rbac and abac controls, specifically around row and masking for cell security, and details about native data sharing and iceberg integration.
+- - Stephen will show Jim a pseudo example of Jayco's (entitlements) this week and discuss implementation ideas.
+- - Jim will prepare slides for his presentation on Horizon, the catalog, and data governance, including a nod to data clean rooms, and send them to Molly, Stephen, and Mike this week.
+- - Jim will take a look at his calendar for the first day of the offsite to see if he can attend.
+- - Mike will come outside to meet Molly and Chris when they arrive at his location."
+"aPoVI0000009I9O0AU","2026-04-15","Day 2: EWS | Snowflake: Lakehouse and Analytics","Salesforce","0010Z00001vsK3UQAU","006VI00000nZVCpYAO","aPaVI00000ifUK20AM","005VI00000Z0y6bYAB","Summary:
+Snowflake team members, along with Priya from Early Warning Services, discussed confusion regarding the meeting location and invite. It was determined that the meeting was a Teams meeting, and the correct invite was forwarded to Priya. The initial meeting was then ended.
+
+Next Steps:
+- - Rohini will forward the Teams meeting invite to Priya."
+"aPoVI0000008wJc0AI","2026-04-16","Schneider Electric Snowflake Follow-up session","Salesforce","001VI000009Wz4nYAC","","","005VI00000Z0y6bYAB","Summary:
+Jim and Jared and Snowflake team members and Ehab, Chandra, Alex and Vinod discussed Snowflake's capabilities for Schneider Electric, focusing on ontologies, governance, and agentic AI readiness. The conversation covered Snowflake's potential to address data sharing challenges, integrate with existing systems like Fabric, and enable non-technical users to access and manage data securely. The group agreed to follow up on specific requirements and explore hands-on experiences with Snowflake.
+
+Next Steps:
+- - Jared will schedule a follow-up meeting with Vinod to discuss the digital grid engagement, including use cases and POC details, and potentially involve Vinod's colleagues.
+- - Jim will tailor a demo for Ehab by building out an example based on sample RDF files and specific requirements, including handling specifications.
+- - Ehab will provide more information about how they want to implement the ontology, including detailed ideas and specs, to Jim and Corey.
+- - Jared will set up a call with Ehab and any recommended colleagues (potentially Vinod) to gather the detailed specs for the ontology implementation and pass them to Corey and Jim.
+- - Jared will schedule the next session with Vinod to discuss data sharing and an org they might want to talk to about it.
+- - Jared will offer free passes to the Snowflake Summit in San Francisco in June to Vinod and his team, and will follow up with Vinod to see if anyone is interested within the next week and a half.
+- - Alex will circle back with Jared with more refined topics for deeper follow-up discussions."
+"aPoVI0000009JOr0AM","2026-04-16","Final Review G200 Offsite Details","Salesforce","001VI00000JfuzOYAR","","","005VI00000Z0y6bYAB","Summary:
+Snowflake team members, along with Jonathan and Blally from Case Consulting, LLC, discussed the agenda and logistics for an upcoming offsite event, focusing on Snowflake demonstrations, training, and breakout sessions. Key topics included cost modeling, cloud security, data governance, and synthetic data generation, with adjustments made to session content and structure based on customer needs and available resources. The team also addressed logistical details such as attendee lists, room assignments, and survey plans.
+
+Next Steps:
+- - Jonathan will text Kevin to let him know about meeting up.
+- - Michael will talk about recommended trainings and the Snowflake Summit during his presentation.
+- - Speaker 1 will work on getting a list of names of everyone attending day one.
+- - Francisco will bring some information for the attendees to take with them during the security breakout.
+- - Speaker 1 will share the full list of attendees with everyone once she receives it tomorrow.
+- - Speaker 2 will spin up a meeting tomorrow to go over the game plan for the other breakout rooms (not security) and will shoot a meeting invite for that.
+- - Speaker 1 will change the name of the second breakout session to something more general than ""synthetic data generation."".
+- - Brendan and Nick will help Speaker 2 put together a kick-off for the marketplace and related topics for the second breakout session.
+- - Speaker 1 will organize the food for both days of the offsite at ilab and carisoft.
+- - MPK-135-5.13 will create a Google Doc to track responses and action items from the cloud security discussion, potentially sharing it with the customer."
